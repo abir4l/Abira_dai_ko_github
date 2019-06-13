@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,11 +5,11 @@
 </head>
 
 <body>
-<? php 
+<?php 
 include "dibash.php";
 include "index.php";
 $object= new MyDibashFirstClass;
-echo $object->info;
+echo $object->dibash;
 
 ?>
 
